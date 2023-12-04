@@ -60,8 +60,8 @@ CREATE TABLE TV_show
 CREATE TABLE Movie
   (Id		CHAR(9),
    Title	VARCHAR2(50),
-   Age_Rating	VARCHAR2(5),
-   Runtime	NUMBER(3),
+   Age_Rating	VARCHAR2(10),
+   Runtime	VARCHAR2(10),
    Year		NUMBER(4),
    Storyline	VARCHAR2(500),
    Description  VARCHAR2(500),
@@ -223,4 +223,10 @@ ALTER TABLE MV_reviews
 ADD CONSTRAINT mv_reviews_id_fk FOREIGN KEY (Id)
 REFERENCES Movie (Id);
 
+
+--Add info: Quardians of the Galaxy 1
+
+INSERT INTO Movie (Id, Title, Age_Rating, Runtime, Year, Storyline, Description, Metascore)
+VALUES('tt2015381', 'Guardians of the Galaxy', 'PG-13', '2h 1m', 2014,'After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the "Guardians of the Galaxy" to save the galaxy.','A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.',
+76);
     
