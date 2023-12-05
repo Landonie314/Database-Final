@@ -223,7 +223,7 @@ ALTER TABLE MV_reviews
 ADD CONSTRAINT mv_reviews_id_fk FOREIGN KEY (Id)
 REFERENCES Movie (Id);
 
---INSERT MOVIES
+--INSERT MOVIES (Id, Title, Age_rating, Runtime, Year, storyline, Description, Metascore)
 --Add movie: Quardians of the Galaxy 1
 
 INSERT INTO Movie (Id, Title, Age_Rating, Runtime, Year, Storyline, Description, Metascore)
@@ -240,9 +240,24 @@ VALUES('tt3896198', 'Guardians of the Galaxy Vol.2', 'PG-13', '2h 16m', 2017, 'A
 INSERT INTO Movie
 VALUES('tt6791350', 'Guardians of the Galaxy Vol.3', 'PG-13', '2h 30m', 2023, 'In Marvel Studios "Guardians of the Galaxy Vol. 3" our beloved band of misfits are looking a bit different these days. Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.', 'Still reeling from the loss of Gamora, Peter Quill rallies his team to defend the universe and one of their own - a mission that could mean the end of the Guardians if not successful.', 64);
 
+--Add movie: Avengers: Infinity War
+
+INSERT INTO Movie
+VALUES('tt4154756', 'Avengers: Infinity War', 'PG-13', '2h 29m', 2018, 'As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment, the fate of Earth and existence has never been more uncertain.', 'The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.', 68);
+
+--Add movie: Avengers: Endgame
+
+INSERT INTO Movie
+VALUES('tt4154796', 'Avengers: Endgame', 'PG-13', '3h 1m', '2019', 'fter the devastating events of Avengers: Infinity War (2018), the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face...', 'After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.', 78);
+
 -- INSERT MORE HERE!
 
 
+--INSERT TV_Shows (Id, Title, Age_rating, Seasons, Year, Storyline)
+
+
+
+--Insert
 
 
 
@@ -253,7 +268,8 @@ VALUES('tt6791350', 'Guardians of the Galaxy Vol.3', 'PG-13', '2h 30m', 2023, 'I
 
 
 
--- INSERT ACTORS
+
+-- INSERT ACTORS (Height, Birthday, Trademark, Nickname, Name)
 
 -- 10 actors from Guardians of the Galaxy 1
 INSERT INTO Actor (Height, Birthday, Trademark, Nickname, Name)
@@ -312,10 +328,12 @@ INSERT INTO Actor
 VALUES('1.91', '28-JAN-93', NULL, NULL, 'Will Poulter');
 
 
+--Inserting actors from Infinity war
 
 
 
---INSERT DIRECTORS HERE!
+
+--INSERT DIRECTORS HERE! (Height, Birthday, Trademark, Nickname, Name)
 
 --DIRECTORS
 
@@ -327,7 +345,7 @@ VALUES('1.83', '05-AUG-66', 'Heavy use of tongue-in-cheek dialogue. Unconvention
 
 
 
---INSERT WRITERS HERE!
+--INSERT WRITERS HERE! (Height, Birthday, Trademark, Nickname, name)
 
 --WRITERS
 
