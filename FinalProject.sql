@@ -505,3 +505,168 @@ INSERT INTO Writer
 VALUES(NULL,NULL,NULL, NULL, 'Elissa Karasik');
 INSERT INTO Writer
 VALUES(NULL,NULL,NULL, NULL, 'Katharyn Blair');
+
+
+
+
+
+--Making Relations
+
+--Infinity War
+
+INSERT INTO MV_act
+VALUES('Vin Diesel','tt4154756');
+INSERT INTO MV_act
+VALUES('Chris Pratt','tt4154756');
+INSERT INTO MV_act
+VALUES('Bradley Cooper','tt4154756');
+INSERT INTO MV_act
+VALUES('Zoe Saldana','tt4154756');
+INSERT INTO MV_act
+VALUES('Dave Bautista','tt4154756');
+INSERT INTO MV_act
+VALUES('Pom Klementieff','tt4154756');
+INSERT INTO MV_act
+VALUES('Sean Gunn','tt4154756');
+INSERT INTO MV_act
+VALUES('Chris Hemsworth','tt4154756');
+INSERT INTO MV_act
+VALUES('Peter Dinklage','tt4154756');
+INSERT INTO MV_act
+VALUES('Tom Hiddleston','tt4154756');
+
+INSERT INTO MV_direct
+VALUES('Anthony Russo','tt4154756');
+INSERT INTO MV_direct
+VALUES('Joe Russo','tt4154756');
+
+INSERT INTO MV_write
+VALUES('Christopher Markus','tt4154756');
+INSERT INTO MV_write
+VALUES('Stephen McFeely','tt4154756');
+INSERT INTO MV_write
+VALUES('Jack Kirby','tt4154756');
+
+INSERT INTO Movie_awards
+VALUES('tt4154756','2019 Nominee Best Visual Effects');
+INSERT INTO Movie_awards
+VALUES('tt4154756','2019 Nominee Best Action Movie');
+INSERT INTO Movie_awards
+VALUES('tt4154756','2019 Winner Favorite Movie');
+
+INSERT INTO Mv_genres
+VALUES('tt4154756','Action');
+INSERT INTO Mv_genres
+VALUES('tt4154756','Adventure');
+INSERT INTO Mv_genres
+VALUES('tt4154756','Sci-Fi');
+
+INSERT INTO Production_company
+VALUES('tt4154756','Marvel Studios');
+INSERT INTO Production_company
+VALUES('tt4154756','Jason Roberts Productions');
+INSERT INTO Production_company
+VALUES('tt4154756','South Pictures');
+INSERT INTO Production_company
+VALUES('tt4154756','Walt Disney Pictures');
+
+--Endgame
+
+VALUES('Vin Diesel','tt4154796');
+INSERT INTO MV_act
+VALUES('Chris Pratt','tt4154796');
+INSERT INTO MV_act
+VALUES('Bradley Cooper','tt4154796');
+INSERT INTO MV_act
+VALUES('Zoe Saldana','tt4154796');
+INSERT INTO MV_act
+VALUES('Dave Bautista','tt4154796');
+INSERT INTO MV_act
+VALUES('Pom Klementieff','tt4154796');
+INSERT INTO MV_act
+VALUES('Sean Gunn','tt4154796');
+INSERT INTO MV_act
+VALUES('Chris Hemsworth','tt4154796');
+INSERT INTO MV_act
+VALUES('Paul Rudd','tt4154796');
+INSERT INTO MV_act
+VALUES('Mark Ruffalo','tt4154796');
+
+INSERT INTO MV_direct
+VALUES('Anthony Russo','tt4154796');
+INSERT INTO MV_direct
+VALUES('Joe Russo','tt4154796');
+
+INSERT INTO MV_write
+VALUES('Christopher Markus','tt4154796');
+INSERT INTO MV_write
+VALUES('Stephen McFeely','tt4154796');
+INSERT INTO MV_write
+VALUES('Jack Kirby','tt4154796');
+
+INSERT INTO Movie_awards
+VALUES('tt4154796','2019 Winnder Bogey Award in Gold');
+INSERT INTO Movie_awards
+VALUES('tt4154796','2020 Winner Best Action Movie');
+INSERT INTO Movie_awards
+VALUES('tt4154796','2020 Winner Best Visual Effects');
+
+INSERT INTO Mv_genres
+VALUES('tt4154796','Action');
+INSERT INTO Mv_genres
+VALUES('tt4154796','Adventure');
+INSERT INTO Mv_genres
+VALUES('tt4154796','Drama');
+
+INSERT INTO Production_company
+VALUES('tt4154796','Marvel Studios');
+INSERT INTO Production_company
+VALUES('tt4154796','Walt Disney Pictures');
+
+--What If...?
+
+
+INSERT INTO TV_act
+VALUES('Paul Rudd','tt10168312');
+INSERT INTO TV_act
+VALUES('Sean Gunn','tt10168312');
+INSERT INTO TV_act
+VALUES('Tom Hiddleston','tt10168312');
+INSERT INTO TV_act
+VALUES('Mark Ruffalo','tt10168312');
+INSERT INTO TV_act
+VALUES('Benedict Cumberbatch','tt10168312');
+INSERT INTO TV_act
+VALUES('Paul Bettany','tt10168312');
+INSERT INTO TV_act
+VALUES('Natalie Portman','tt10168312');
+
+INSERT INTO TV_direct
+VALUES('Bryan Andrews','tt10168312');
+
+INSERT INTO TV_write
+VALUES('A.C. Bradley','tt10168312');
+INSERT INTO TV_write
+VALUES('Matthew Chauncey','tt10168312');
+INSERT INTO TV_write
+VALUES('Steve Englehart','tt10168312');
+INSERT INTO TV_write
+VALUES('Steve Gan','tt10168312');
+INSERT INTO TV_write
+VALUES('Steve Gerber','tt10168312');
+
+INSERT INTO Tv_show_awards
+VALUES('tt10168312','2022 Winner Best Animated Series');
+INSERT INTO Tv_show_awards
+VALUES('tt10168312','2022 Nominee Next Big Thing');
+INSERT INTO Tv_show_awards
+VALUES('tt10168312','2022 Nominee Best Animated Show');
+
+
+
+
+
+
+
+
+
