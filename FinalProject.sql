@@ -663,7 +663,136 @@ INSERT INTO Tv_show_awards
 VALUES('tt10168312','2022 Nominee Best Animated Show');
 
 
+--GOTG vol. 1
 
+INSERT INTO MV_act
+VALUES('Chris Pratt','tt2015381');
+INSERT INTO MV_act
+VALUES('Bradley Cooper','tt2015381');
+INSERT INTO MV_act
+VALUES('Vin Diesel','tt2015381');
+INSERT INTO MV_act
+VALUES('Zoe Saldana','tt2015381');
+INSERT INTO MV_act
+VALUES('Dave Bautista','tt2015381');
+INSERT INTO MV_act
+VALUES('Lee Pace','tt2015381');
+INSERT INTO MV_act
+VALUES('Micheal Rooker','tt2015381');
+INSERT INTO MV_act
+VALUES('Karen Gillan','tt2015381');
+INSERT INTO MV_act
+VALUES('Djimon Hounsou','tt2015381');
+INSERT INTO MV_act
+VALUES('John C. Reilly','tt2015381');
+
+INSERT INTO MV_direct
+VALUES('James Gunn','tt2015381');
+
+INSERT INTO MV_write
+VALUES('Nicole Perlman','tt2015381');
+INSERT INTO MV_write
+VALUES('James Gunn','tt2015381');
+INSERT INTO MV_write
+VALUES('Dan Abnett','tt2015381');
+INSERT INTO MV_write
+VALUES('Jim Starlin','tt2015381');
+INSERT INTO MV_write
+VALUES('Andy Lanning','tt2015381');
+INSERT INTO MV_write
+VALUES('Steve Englehart','tt2015381');
+INSERT INTO MV_write
+VALUES('Steve Gan','tt2015381');
+INSERT INTO MV_write
+VALUES('Steve Gerber','tt2015381');
+
+
+--GOTG vol. 2
+
+INSERT INTO MV_act
+VALUES('Chris Pratt','tt3896198');
+INSERT INTO MV_act
+VALUES('Vin Diesel','tt3896198');
+INSERT INTO MV_act
+VALUES('Micheal Rooker','tt3896198');
+INSERT INTO MV_act
+VALUES('Dave Bautista','tt3896198');
+INSERT INTO MV_act
+VALUES('Zoe Saldana','tt3896198');
+INSERT INTO MV_act
+VALUES('Karen Gillan','tt3896198');
+INSERT INTO MV_act
+VALUES('Bradley Cooper','tt3896198');
+INSERT INTO MV_act
+VALUES('Pom Klementieff','tt3896198');
+INSERT INTO MV_act
+VALUES('Sylvester Stallone','tt3896198');
+INSERT INTO MV_act
+VALUES('Kurt Russell','tt3896198');
+
+INSERT INTO MV_direct
+VALUES('James Gunn','tt3896198');
+
+INSERT INTO MV_write
+VALUES('James Gunn','tt3896198');
+INSERT INTO MV_write
+VALUES('Dan Abnett','tt3896198');
+INSERT INTO MV_write
+VALUES('Jim Starlin','tt3896198');
+INSERT INTO MV_write
+VALUES('Andy Lanning','tt3896198');
+INSERT INTO MV_write
+VALUES('Jack Kirby','tt3896198');
+INSERT INTO MV_write
+VALUES('Steve Englehart','tt3896198');
+INSERT INTO MV_write
+VALUES('Steve Gan','tt3896198');
+INSERT INTO MV_write
+VALUES('Steve Gerber','tt3896198');
+INSERT INTO MV_write
+VALUES('Stan Lee','tt3896198');
+
+
+--GOTG vol. 3
+
+INSERT INTO MV_act
+VALUES('Chris Pratt','tt6791350');
+INSERT INTO MV_act
+VALUES('Vin Diesel','tt6791350');
+INSERT INTO MV_act
+VALUES('Karen Gillan','tt6791350');
+INSERT INTO MV_act
+VALUES('Dave Bautista','tt6791350');
+INSERT INTO MV_act
+VALUES('Bradley Cooper','tt6791350');
+INSERT INTO MV_act
+VALUES('Zoe Saldana','tt6791350');
+INSERT INTO MV_act
+VALUES('Stephen Blackehart','tt6791350');
+INSERT INTO MV_act
+VALUES('Terence Rosemore','tt6791350');
+INSERT INTO MV_act
+VALUES('Sean Gunn','tt6791350');
+INSERT INTO MV_act
+VALUES('Will Poulter','tt6791350');
+
+INSERT INTO MV_direct
+VALUES('James Gunn','tt6791350');
+
+INSERT INTO MV_write
+VALUES('James Gunn','tt6791350');
+INSERT INTO MV_write
+VALUES('Jim Starlin','tt6791350');
+VALUES('Jack Kirby','tt6791350');
+INSERT INTO MV_write
+INSERT INTO MV_write
+VALUES('Steve Englehart','tt6791350');
+INSERT INTO MV_write
+VALUES('Steve Gan','tt6791350');
+INSERT INTO MV_write
+VALUES('Steve Gerber','tt6791350');
+INSERT INTO MV_write
+VALUES('Stan Lee','tt6791350');
 
 
 
