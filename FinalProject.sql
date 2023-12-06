@@ -48,7 +48,7 @@ CREATE TABLE Director
 
 
 CREATE TABLE TV_show
-  (Id		CHAR(9),
+  (Id		CHAR(10),
    Title	VARCHAR2(50),
    Age_Rating	VARCHAR2(5),
    Seasons	NUMBER(2),
@@ -58,7 +58,7 @@ CREATE TABLE TV_show
 );
 
 CREATE TABLE Movie
-  (Id		CHAR(9),
+  (Id		CHAR(10),
    Title	VARCHAR2(50),
    Age_Rating	VARCHAR2(10),
    Runtime	VARCHAR2(10),
@@ -71,54 +71,54 @@ CREATE TABLE Movie
 
 CREATE TABLE TV_write
   (Name		VARCHAR2(40),
-   Id		CHAR(9),
+   Id		CHAR(10),
    CONSTRAINT 	tv_write_nameid_pk PRIMARY KEY (Name, Id)
 );
 
 CREATE TABLE TV_act
   (Name		VARCHAR2(40),
-   Id		CHAR(9),
+   Id		CHAR(10),
    CONSTRAINT 	tv_act_nameid_pk PRIMARY KEY (Name, Id)
 );
 
 CREATE TABLE TV_direct
   (Name		VARCHAR2(40),
-   Id		CHAR(9),
+   Id		CHAR(10),
    CONSTRAINT 	tv_direct_nameid_pk PRIMARY KEY (Name, Id)
 );     
 
 CREATE TABLE MV_write
   (Name		VARCHAR2(40),
-   Id		CHAR(9),
+   Id		CHAR(10),
    CONSTRAINT 	mv_write_nameid_pk PRIMARY KEY (Name, Id)
 );
 
 CREATE TABLE MV_act
   (Name		VARCHAR2(40),
-   Id		CHAR(9),
+   Id		CHAR(10),
    CONSTRAINT 	mv_act_nameid_pk PRIMARY KEY (Name, Id)
 );
 
 CREATE TABLE MV_direct
   (Name		VARCHAR2(40),
-   Id		CHAR(9),
+   Id		CHAR(10),
    CONSTRAINT 	mv_direct_nameid_pk PRIMARY KEY (Name, Id)
 );
 
 CREATE TABLE Movie_awards
-  (Id		CHAR(9),
+  (Id		CHAR(10),
    Mv_awards	VARCHAR2(50),
    CONSTRAINT	mv_awards_idawards_pk PRIMARY KEY (Id, Mv_awards)
 );
 
 CREATE TABLE Tv_show_awards
-  (Id		CHAR(9),
+  (Id		CHAR(10),
    Tv_awards	VARCHAR2(50),
    CONSTRAINT	tv_awards_idawards_pk PRIMARY KEY (Id, Tv_awards)
 );
 
 CREATE TABLE Mv_genres
-  (Id		CHAR(9),
+  (Id		CHAR(10),
    Mv_genre	VARCHAR2(20),
    CONSTRAINT	mv_genres_idgenres_pk PRIMARY KEY (Id, Mv_genre)
 );
@@ -130,7 +130,7 @@ CREATE TABLE Production_company
 );
 
 CREATE TABLE TV_reviews
-  (Id		CHAR(9),
+  (Id		CHAR(10),
    Username	VARCHAR2(25),
    Title	VARCHAR2(25),
    Review_date		DATE,
@@ -140,7 +140,7 @@ CREATE TABLE TV_reviews
 );
 
 CREATE TABLE MV_reviews
-  (Id		CHAR(9),
+  (Id		CHAR(10),
    Username	VARCHAR2(25),
    Title	VARCHAR2(25),
    Review_date		DATE,
@@ -388,66 +388,66 @@ VALUES('1.75', NULL, NULL, NULL, 'Randall Park');
 
 --Infinity war
 INSERT INTO Actor
-VALUES('1.91', 11-AUG-83, 'Deep resonant voice. Muscular physique.', 'Kip, Chris', 'Chris Hemsworth');
+VALUES('1.91', '11-AUG-83', 'Deep resonant voice. Muscular physique.', 'Kip, Chris', 'Chris Hemsworth');
 INSERT INTO Actor
-VALUES('1.31', 11-JUN-69, 'Short stature. Driven, intense portrayals. Deep baritone voice. Frequently portrays gifted speakers and morally ambiguous heros.', NULL, 'Peter Dinklage');
+VALUES('1.31', '11-JUN-69', 'Short stature. Driven, intense portrayals. Deep baritone voice. Frequently portrays gifted speakers and morally ambiguous heros.', NULL, 'Peter Dinklage');
 
 --Endgame
 INSERT INTO Actor
-VALUES('1.75', 6-APR-69, 'Low-key, sardonic sense of humor. Frequently co-stars with Steve Carell and Seth Rogen. Sarcastic wit. Often cast by Judd Apatow. Vivid green eyes.', 'Fred', 'Paul Rudd');
+VALUES('1.75', '6-APR-69', 'Low-key, sardonic sense of humor. Frequently co-stars with Steve Carell and Seth Rogen. Sarcastic wit. Often cast by Judd Apatow. Vivid green eyes.', 'Fred', 'Paul Rudd');
 INSERT INTO Actor
-VALUES('1.73', 22-NOV-67, 'Frequently plays likable everyman types', NULL, 'Mark Ruffalo');
+VALUES('1.73', '22-NOV-67', 'Frequently plays likable everyman types', NULL, 'Mark Ruffalo');
 
 --What if...?
 INSERT INTO Actor
-VALUES('1.83', 19-JUL-76, 'Deep bass-baritone voice', 'Ben', 'Benedict Cumberbatch');
+VALUES('1.83', '19-JUL-76', 'Deep bass-baritone voice', 'Ben', 'Benedict Cumberbatch');
 INSERT INTO Actor
-VALUES('1.60', 9-JUN-81, 'Often portrays characters taht are rather smart, mature and grown up for their age. Brown eyes. Lisp sweet voice. Petite figure. Mole on the side of her face.', 'Nat', 'Natalie Portman');
+VALUES('1.60', '9-JUN-81', 'Often portrays characters taht are rather smart, mature and grown up for their age. Brown eyes. Lisp sweet voice. Petite figure. Mole on the side of her face.', 'Nat', 'Natalie Portman');
 
 --10 Moon Knight Actors
 
 INSERT INTO Actor
-VALUES('1.74', '09-MAR-79', 'NULL', 'NULL', 'Oscar Isaac');
+VALUES('1.74', '09-MAR-79', NULL, NULL, 'Oscar Isaac');
 INSERT INTO Actor
-VALUES('1.79', '06-NOV-70', 'In later roles, meek and mild-manner demeanor. In 1990s roles, a prototypical Gen X rebel/outsider. Often sports a goatee in his films. Frequently collaborating with Richard Linklater.', 'NULL', 'Ethan Hawke');
+VALUES('1.79', '06-NOV-70', 'In later roles, meek and mild-manner demeanor. In 1990s roles, a prototypical Gen X rebel/outsider. Often sports a goatee in his films. Frequently collaborating with Richard Linklater.', NULL, 'Ethan Hawke');
 INSERT INTO Actor
-VALUES('1.69', '28-OCT-86', 'Freckles. Curly Hair.', 'NULL', 'May Calamawy');
+VALUES('1.69', '28-OCT-86', 'Freckles. Curly Hair.', NULL, 'May Calamawy');
 INSERT INTO Actor
-VALUES('1.80', '24-OCT-39', 'Rich smooth voice. Often plays untrustworthy schemers. Often plays refined, sinister villains.', 'NULL', 'Frank Murray Abraham');
+VALUES('1.80', '24-OCT-39', 'Rich smooth voice. Often plays untrustworthy schemers. Often plays refined, sinister villains.', NULL, 'Frank Murray Abraham');
 INSERT INTO Actor
-VALUES('1.75', 'NULL', 'NULL', 'NULL', 'Michael Benjamin Hernandez');
+VALUES('1.75', NULL, NULL, NULL, 'Michael Benjamin Hernandez');
 INSERT INTO Actor
-VALUES('1.57', 'NULL', 'NULL', 'NULL', 'Ann Akinjirin');
+VALUES('1.57', NULL, NULL, NULL, 'Ann Akinjirin');
 INSERT INTO Actor
-VALUES('NULL', 'NULL', 'NULL', 'NULL', 'Karim El Hakim');
+VALUES(NULL, NULL, NULL, NULL, 'Karim El Hakim');
 INSERT INTO Actor
-VALUES('NULL', 'NULL', 'NULL', 'NULL', 'David Ganly');
+VALUES(NULL, NULL, NULL, NULL, 'David Ganly');
 INSERT INTO Actor
-VALUES('NULL', 'NULL', 'NULL', 'NULL', 'Antonia Salib');
+VALUES(NULL, NULL, NULL, NULL, 'Antonia Salib');
 INSERT INTO Actor
-VALUES('1.83', '30-DEC-80', 'NULL', 'NULL', 'Khalid Abdalla');
+VALUES('1.83', '30-DEC-80', NULL, NULL, 'Khalid Abdalla');
 
 --Hawkeye 10 Actors
 INSERT INTO Actor
 VALUES('1.74', '07-JAN-71', 'Deeply intense understated performances. Intense emotional performances. Gruff yet soft voice. Frequently plays violent yet unstable characters.', 'Renni', 'Jeremy Renner');
 INSERT INTO Actor
-VALUES('1.74', '11-DEC-96', 'NULL', 'NULL', 'Hailee Steinfeld');
+VALUES('1.74', '11-DEC-96', NULL, NULL, 'Hailee Steinfeld');
 INSERT INTO Actor
 VALUES('1.62', '03-JAN-96', 'Distinct frown in dramatic scenes.', 'Flossie Rose', 'Florence Pugh');
 INSERT INTO Actor
-VALUES('1.70', '06-AUG-73', 'Expressive, piercing blue eyes. Frequently plays the mother disturbed children.', 'NULL', 'Vera Farmiga');
+VALUES('1.70', '06-AUG-73', 'Expressive, piercing blue eyes. Frequently plays the mother disturbed children.', NULL, 'Vera Farmiga');
 INSERT INTO Actor
-VALUES('1.80', '13-FEB-75', 'NULL', 'NULL', 'Tony Dalton');
+VALUES('1.80', '13-FEB-75', NULL, NULL, 'Tony Dalton');
 INSERT INTO Actor
-VALUES('NULL', '20-MAY-87', 'NULL', 'NULL', 'Fra Fee');
+VALUES(NULL, '20-MAY-87', NULL, NULL, 'Fra Fee');
 INSERT INTO Actor
-VALUES('1.96', '29-JUN-69', 'NULL', 'NULL', 'Aleks Paunovic');
+VALUES('1.96', '29-JUN-69', NULL, NULL, 'Aleks Paunovic');
 INSERT INTO Actor
-VALUES('1.82', '21-MAR-72', 'NULL', 'NULL', 'Piotr Adamczyk');
+VALUES('1.82', '21-MAR-72', NULL, NULL, 'Piotr Adamczyk');
 INSERT INTO Actor
-VALUES('1.73', '13-FEB-97', 'Down-to-earth and friendly personality.', 'NULL', 'Alaqua Cox');
+VALUES('1.73', '13-FEB-97', 'Down-to-earth and friendly personality.', NULL, 'Alaqua Cox');
 INSERT INTO Actor
-VALUES('1.14', '16-FEB-11', 'NULL', 'NULL', 'Cade Woodward');
+VALUES('1.14', '16-FEB-11', NULL, NULL, 'Cade Woodward');
   
 --INSERT DIRECTORS HERE! (Height, Birthday, Trademark, Nickname, Name)
 
@@ -464,11 +464,11 @@ VALUES(NULL, '28-OCT-87', NULL, NULL, 'Kate Herron');
 INSERT INTO Director
 VALUES('1.88', '09-JUN-83', NULL, NULL, 'Justin Benson');
 INSERT INTO Director
-VALUES(NULL, '17-DEC-87', NULL, 'NULL', 'Aaron Moorhead');
+VALUES(NULL, '17-DEC-87', NULL, NULL, 'Aaron Moorhead');
 INSERT INTO Director
-VALUES(NULL, NULL, NULL, 'NULL', 'Dan DeLeeuw');
+VALUES(NULL, NULL, NULL, NULL, 'Dan DeLeeuw');
 INSERT INTO Director
-VALUES(NULL, NULL, NULL, 'NULL', 'Kasra Farahani');
+VALUES(NULL, NULL, NULL, NULL, 'Kasra Farahani');
 
 --wandavision direct
 INSERT INTO Director
@@ -480,22 +480,22 @@ VALUES(NULL, NULL, NULL, NULL, 'Bryan Andrews');
 
 --Infinity war
 INSERT INTO Director
-VALUES(NULL, 3-FEB-70, NULL, NULL, 'Anthony Russo');
+VALUES(NULL, '3-FEB-70', NULL, NULL, 'Anthony Russo');
 
 INSERT INTO Director
-VALUES(NULL, 8-JUL-71, NULL, NULL, 'Joe Russo');
+VALUES(NULL, '8-JUL-71', NULL, NULL, 'Joe Russo');
 
 --Moon Knight Directors
 INSERT INTO Director
-VALUES('NULL', '07-DEC-78', 'NULL', 'NULL', 'Mohamed Diab');
+VALUES(NULL, '07-DEC-78', NULL, NULL, 'Mohamed Diab');
 
 --Hawkeye Directors
 INSERT INTO Director
-VALUES('NULL', 'NULL', 'NULL', 'Bert', 'Amber Templemore');
+VALUES(NULL, NULL, NULL, 'Bert', 'Amber Templemore');
 INSERT INTO Director
-VALUES('NULL', 'NULL', 'NULL', 'Bertie', 'Bertie Ellwood');
+VALUES(NULL, NULL, NULL, 'Bertie', 'Bertie Ellwood');
 INSERT INTO Director
-VALUES('NULL', 'NULL', 'NULL', 'NULL', 'Rhys Thomas');
+VALUES(NULL, NULL, NULL, NULL, 'Rhys Thomas');
 
 --INSERT WRITERS HERE! (Height, Birthday, Trademark, Nickname, name)
 
@@ -519,13 +519,13 @@ VALUES('1.80', '28-DEC-22', 'His signature dark sunglasses. Cameos in the films 
 
 --Infinity war
 INSERT INTO Writer
-VALUES('1.84', 2-JAN-70, NULL, NULL, 'Christopher Markus');
+VALUES('1.84', '2-JAN-70', NULL, NULL, 'Christopher Markus');
 
 INSERT INTO Writer
-VALUES('1.88', 24-FEB-70, NULL, NULL, 'Stephen McFeely');
+VALUES('1.88', '24-FEB-70', NULL, NULL, 'Stephen McFeely');
 
 INSERT INTO Writer
-VALUES('1.57', 28-AUG-17, 'The realistic manner in which he depicted fight scenes. Bold inflation in lettering. Use of Splash paneles (Large panels, sometimes taking up entire pages, often depicting big events). Always started in the middle of a story, then created the beginning and end afterwards. His art was always known to have lots of impact, power and energy. Known for rigorious work ethic and incredible productivity.', 'The King', 'Jack Kirby');
+VALUES('1.57', '28-AUG-17', 'The realistic manner in which he depicted fight scenes. Bold inflation in lettering. Use of Splash paneles (Large panels, sometimes taking up entire pages, often depicting big events). Always started in the middle of a story, then created the beginning and end afterwards. His art was always known to have lots of impact, power and energy. Known for rigorious work ethic and incredible productivity.', 'The King', 'Jack Kirby');
 
 --What If...?
 INSERT INTO Writer
@@ -535,13 +535,13 @@ INSERT INTO Writer
 VALUES(NULL, NULL, NULL, NULL, 'Matthew Chauncey');
 
 INSERT INTO Writer
-VALUES(NULL, 22-APR-47, NULL, NULL, 'Steve Englehart');
+VALUES(NULL, '22-APR-47', NULL, NULL, 'Steve Englehart');
 
 INSERT INTO Writer
 VALUES(NULL, NULL, NULL, NULL, 'Steve Gan');
 
 INSERT INTO Writer
-VALUES(NULL, 20-SEP-47, NULL, NULL, 'Steve Gerber');
+VALUES(NULL, '20-SEP-47', NULL, NULL, 'Steve Gerber');
 
 --wandavision write
 INSERT INTO Writer
@@ -569,18 +569,18 @@ VALUES(NULL,NULL,NULL, NULL, 'Katharyn Blair');
 
 --Moon Knight Writers
 INSERT INTO Writer
-VALUES('NULL', 'NULL', 'NULL', 'NULL', 'Danielle Iman');
+VALUES(NULL, NULL, NULL, NULL, 'Danielle Iman');
 INSERT INTO Writer
-VALUES('NULL', 'NULL', 'NULL', 'NULL', 'Alex Meenehan');
+VALUES(NULL, NULL, NULL, NULL, 'Alex Meenehan');
 INSERT INTO Writer
-VALUES('NULL', '23-FEB-48', 'NULL', 'NULL', 'Doug Moench');
+VALUES(NULL, '23-FEB-48', NULL, NULL, 'Doug Moench');
 
 
 --Hawkeye Writers
 INSERT INTO Writer
-VALUES('NULL', 'NULL', 'NULL', 'NULL', 'Erin Cancino');
+VALUES(NULL, NULL, NULL, NULL, 'Erin Cancino');
 INSERT INTO Writer
-VALUES('NULL', 'NULL', 'NULL', 'NULL', 'Jenna Noel Frazier');
+VALUES(NULL, NULL, NULL, NULL, 'Jenna Noel Frazier');
 
 
 
