@@ -266,6 +266,11 @@ VALUES('tt9140554', 'Loki','TV-14', 2, 2021, 'The mercurial villain Loki resumes
 INSERT INTO TV_show
 VALUES('tt9140560','WandaVision','TV-PG',1, 2021, 'Blends the style of classic sitcoms with the MCU, in which Wanda Maximoff and Vision - two super-powered beings living their ideal suburban lives - begin to suspect that everything is not as it seems.')
 
+INSERT INTO TV_show
+VALUES('tt10234724', 'Moon Knight','TV-14', 1, 2022, 'Steven Grant discovers he's been granted the powers of an Egyptian moon god. But he soon finds out that these newfound powers can be both a blessing and a curse to his troubled life.”')
+
+INSERT INTO TV_show
+VALUES('tt10160804','Hawkeye','TV-14',1, 2021, 'Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate Bishop, who took on the role after the original Avenger, Clint Barton.')
 
 
 
@@ -399,7 +404,51 @@ VALUES('1.83', 19-JUL-76, 'Deep bass-baritone voice', 'Ben', 'Benedict Cumberbat
 INSERT INTO Actor
 VALUES('1.60', 9-JUN-81, 'Often portrays characters taht are rather smart, mature and grown up for their age. Brown eyes. Lisp sweet voice. Petite figure. Mole on the side of her face.', 'Nat', 'Natalie Portman');
 
+--10 Moon Knight Actors
 
+INSERT INTO Actor
+VALUES('1.74', '09-MAR-79', 'NULL', 'NULL', 'Oscar Isaac');
+INSERT INTO Actor
+VALUES('1.79', '06-NOV-70', 'In later roles, meek and mild-manner demeanor. In 1990s roles, a prototypical Gen X rebel/outsider. Often sports a goatee in his films. Frequently collaborating with Richard Linklater.', 'NULL', 'Ethan Hawke');
+INSERT INTO Actor
+VALUES('1.69', '28-OCT-86', 'Freckles. Curly Hair.', 'NULL', 'May Calamawy');
+INSERT INTO Actor
+VALUES('1.80', '24-OCT-39', 'Rich smooth voice. Often plays untrustworthy schemers. Often plays refined, sinister villains.', 'NULL', 'Frank Murray Abraham');
+INSERT INTO Actor
+VALUES('1.75', 'NULL', 'NULL', 'NULL', 'Michael Benjamin Hernandez');
+INSERT INTO Actor
+VALUES('1.57', 'NULL', 'NULL', 'NULL', 'Ann Akinjirin');
+INSERT INTO Actor
+VALUES('NULL', 'NULL', 'NULL', 'NULL', 'Karim El Hakim');
+INSERT INTO Actor
+VALUES('NULL', 'NULL', 'NULL', 'NULL', 'David Ganly');
+INSERT INTO Actor
+VALUES('NULL', 'NULL', 'NULL', 'NULL', 'Antonia Salib');
+INSERT INTO Actor
+VALUES('1.83', '30-DEC-80', 'NULL', 'NULL', 'Khalid Abdalla');
+
+--Hawkeye 10 Actors
+INSERT INTO Actor
+VALUES('1.74', '07-JAN-71', 'Deeply intense understated performances. Intense emotional performances. Gruff yet soft voice. Frequently plays violent yet unstable characters.', 'Renni', 'Jeremy Renner');
+INSERT INTO Actor
+VALUES('1.74', '11-DEC-96', 'NULL', 'NULL', 'Hailee Steinfeld');
+INSERT INTO Actor
+VALUES('1.62', '03-JAN-96', 'Distinct frown in dramatic scenes.', 'Flossie Rose', 'Florence Pugh');
+INSERT INTO Actor
+VALUES('1.70', '06-AUG-73', 'Expressive, piercing blue eyes. Frequently plays the mother disturbed children.', 'NULL', 'Vera Farmiga');
+INSERT INTO Actor
+VALUES('1.80', '13-FEB-75', 'NULL', 'NULL', 'Tony Dalton');
+INSERT INTO Actor
+VALUES('NULL', '20-MAY-87', 'NULL', 'NULL', 'Fra Fee');
+INSERT INTO Actor
+VALUES('1.96', '29-JUN-69', 'NULL', 'NULL', 'Aleks Paunovic');
+INSERT INTO Actor
+VALUES('1.82', '21-MAR-72', 'NULL', 'NULL', 'Piotr Adamczyk');
+INSERT INTO Actor
+VALUES('1.73', '13-FEB-97', 'Down-to-earth and friendly personality.', 'NULL', 'Alaqua Cox');
+INSERT INTO Actor
+VALUES('1.14', '16-FEB-11', 'NULL', 'NULL', 'Cade Woodward');
+  
 --INSERT DIRECTORS HERE! (Height, Birthday, Trademark, Nickname, Name)
 
 --DIRECTORS
@@ -435,6 +484,18 @@ VALUES(NULL, 3-FEB-70, NULL, NULL, 'Anthony Russo');
 
 INSERT INTO Director
 VALUES(NULL, 8-JUL-71, NULL, NULL, 'Joe Russo');
+
+--Moon Knight Directors
+INSERT INTO Director
+VALUES('NULL', '07-DEC-78', 'NULL', 'NULL', 'Mohamed Diab');
+
+--Hawkeye Directors
+INSERT INTO Director
+VALUES('NULL', 'NULL', 'NULL', 'Bert', 'Amber Templemore');
+INSERT INTO Director
+VALUES('NULL', 'NULL', 'NULL', 'Bertie', 'Bertie Ellwood');
+INSERT INTO Director
+VALUES('NULL', 'NULL', 'NULL', 'NULL', 'Rhys Thomas');
 
 --INSERT WRITERS HERE! (Height, Birthday, Trademark, Nickname, name)
 
@@ -506,7 +567,20 @@ VALUES(NULL,NULL,NULL, NULL, 'Elissa Karasik');
 INSERT INTO Writer
 VALUES(NULL,NULL,NULL, NULL, 'Katharyn Blair');
 
+--Moon Knight Writers
+INSERT INTO Writer
+VALUES('NULL', 'NULL', 'NULL', 'NULL', 'Danielle Iman');
+INSERT INTO Writer
+VALUES('NULL', 'NULL', 'NULL', 'NULL', 'Alex Meenehan');
+INSERT INTO Writer
+VALUES('NULL', '23-FEB-48', 'NULL', 'NULL', 'Doug Moench');
 
+
+--Hawkeye Writers
+INSERT INTO Writer
+VALUES('NULL', 'NULL', 'NULL', 'NULL', 'Erin Cancino');
+INSERT INTO Writer
+VALUES('NULL', 'NULL', 'NULL', 'NULL', 'Jenna Noel Frazier');
 
 
 
@@ -644,6 +718,11 @@ VALUES('Natalie Portman','tt10168312');
 INSERT INTO TV_direct
 VALUES('Bryan Andrews','tt10168312');
 
+INSERT INTO TV_direct
+VALUES('Justin Benson', 'tt10234724');
+INSERT INTO TV_direct
+VALUES('Aaron Moorhead, 'tt10234724');
+
 INSERT INTO TV_write
 VALUES('A.C. Bradley','tt10168312');
 INSERT INTO TV_write
@@ -661,6 +740,12 @@ INSERT INTO Tv_show_awards
 VALUES('tt10168312','2022 Nominee Next Big Thing');
 INSERT INTO Tv_show_awards
 VALUES('tt10168312','2022 Nominee Best Animated Show');
+
+INSERT INTO Tv_show_awards
+VALUES('tt10234724','2022 Nominee Best Streaming Limited Event Series');
+
+INSERT INTO Tv_show_awards
+VALUES('tt10160804','2022 Nominee Best Streaming Limited Event Series');
 
 
 --GOTG vol. 1
