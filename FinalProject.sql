@@ -254,6 +254,7 @@ VALUES('tt4154796', 'Avengers: Endgame', 'PG-13', '3h 1m', '2019', 'fter the dev
 
 
 --INSERT TV_Shows (Id, Title, Age_rating, Seasons, Year, Storyline)
+
 INSERT INTO TV_show(Id, Title, Age_rating, Seasons, Year, Storyline)
 VALUES('tt9140554', 'Loki','TV-14', 2, 'The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of “Avengers: Endgame.”'
 
@@ -380,12 +381,30 @@ VALUES('1.55', NULL, NULL, NULL, 'Selena Anduze');
 INSERT INTO Actor
 VALUES('1.75', NULL, NULL, NULL, 'Randall Park');
 
+--Infinity war
+INSERT INTO Actor
+VALUES('1.91', 11-AUG-83, 'Deep resonant voice. Muscular physique.', 'Kip, Chris', 'Chris Hemsworth');
+INSERT INTO Actor
+VALUES('1.31', 11-JUN-69, 'Short stature. Driven, intense portrayals. Deep baritone voice. Frequently portrays gifted speakers and morally ambiguous heros.', NULL, 'Peter Dinklage');
 
+--Endgame
+INSERT INTO Actor
+VALUES('1.75', 6-APR-69, 'Low-key, sardonic sense of humor. Frequently co-stars with Steve Carell and Seth Rogen. Sarcastic wit. Often cast by Judd Apatow. Vivid green eyes.', 'Fred', 'Paul Rudd');
+INSERT INTO Actor
+VALUES('1.73', 22-NOV-67, 'Frequently plays likable everyman types', NULL, 'Mark Ruffalo');
+
+--What if...?
+INSERT INTO Actor
+VALUES('1.83', 19-JUL-76, 'Deep bass-baritone voice', 'Ben', 'Benedict Cumberbatch');
+INSERT INTO Actor
+VALUES('1.60', 9-JUN-81, 'Often portrays characters taht are rather smart, mature and grown up for their age. Brown eyes. Lisp sweet voice. Petite figure. Mole on the side of her face.', 'Nat', 'Natalie Portman');
 
 
 --INSERT DIRECTORS HERE! (Height, Birthday, Trademark, Nickname, Name)
 
 --DIRECTORS
+
+
 
 INSERT INTO Director
 VALUES('1.83', '05-AUG-66', 'Heavy use of tongue-in-cheek dialogue. Unconventional characters. His spiky hair.', 'The Sneepers', 'James Gunn');
@@ -406,10 +425,21 @@ VALUES(NULL, NULL, NULL, 'NULL', 'Kasra Farahani');
 INSERT INTO Director
 VALUES(NULL, '08-AUG-75', NULL, NULL, 'Matt Shakman');
 
+--What if...?
+INSERT INTO Director
+VALUES(NULL, NULL, NULL, NULL, 'Bryan Andrews');
+
+--Infinity war
+INSERT INTO Director
+VALUES(NULL, 3-FEB-70, NULL, NULL, 'Anthony Russo');
+
+INSERT INTO Director
+VALUES(NULL, 8-JUL-71, NULL, NULL, 'Joe Russo');
 
 --INSERT WRITERS HERE! (Height, Birthday, Trademark, Nickname, name)
 
 --WRITERS
+
 
 INSERT INTO Writer
 VALUES(NULL, '31-JAN-81', NULL, NULL, 'Nicole Perlman');
@@ -425,6 +455,32 @@ VALUES('1.75', '09-OCT-49', NULL, NULL, 'Jim Starlin');
 
 INSERT INTO Writer
 VALUES('1.80', '28-DEC-22', 'His signature dark sunglasses. Cameos in the films based on his comics. Often referred to faithful fans as true believers.', 'The Man', 'Stan Lee');
+
+--Infinity war
+INSERT INTO Writer
+VALUES('1.84', 2-JAN-70, NULL, NULL, 'Christopher Markus');
+
+INSERT INTO Writer
+VALUES('1.88', 24-FEB-70, NULL, NULL, 'Stephen McFeely');
+
+INSERT INTO Writer
+VALUES('1.57', 28-AUG-17, 'The realistic manner in which he depicted fight scenes. Bold inflation in lettering. Use of Splash paneles (Large panels, sometimes taking up entire pages, often depicting big events). Always started in the middle of a story, then created the beginning and end afterwards. His art was always known to have lots of impact, power and energy. Known for rigorious work ethic and incredible productivity.', 'The King', 'Jack Kirby');
+
+--What If...?
+INSERT INTO Writer
+VALUES(NULL, NULL, NULL, NULL, 'A.C. Bradley');
+
+INSERT INTO Writer
+VALUES(NULL, NULL, NULL, NULL, 'Matthew Chauncey');
+
+INSERT INTO Writer
+VALUES(NULL, 22-APR-47, NULL, NULL, 'Steve Englehart');
+
+INSERT INTO Writer
+VALUES(NULL, NULL, NULL, NULL, 'Steve Gan');
+
+INSERT INTO Writer
+VALUES(NULL, 20-SEP-47, NULL, NULL, 'Steve Gerber');
 
 --wandavision write
 INSERT INTO Writer
