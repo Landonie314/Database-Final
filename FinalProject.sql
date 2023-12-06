@@ -224,18 +224,18 @@ ADD CONSTRAINT mv_reviews_id_fk FOREIGN KEY (Id)
 REFERENCES Movie (Id);
 
 --INSERT MOVIES (Id, Title, Age_rating, Runtime, Year, storyline, Description, Metascore)
---Add movie: Quardians of the Galaxy 1
+--Add movie: Guardians of the Galaxy 1
 
 INSERT INTO Movie (Id, Title, Age_Rating, Runtime, Year, Storyline, Description, Metascore)
 VALUES('tt2015381', 'Guardians of the Galaxy', 'PG-13', '2h 1m', 2014,'After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the "Guardians of the Galaxy" to save the galaxy.','A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.',
 76);
 
---Add movie: Quardians of the Galaxy 2
+--Add movie: Guardians of the Galaxy 2
 
 INSERT INTO Movie
 VALUES('tt3896198', 'Guardians of the Galaxy Vol.2', 'PG-13', '2h 16m', 2017, 'After saving Xandar from Ronan''s wrath, the Guardians are now recognized as heroes. Now the team must help their leader, Star Lord, uncover the truth behind his true heritage. Along the way, old foes turn to allies and betrayal is blooming. And the Guardians find they are up against a devastating new menace who is out to rule the galaxy.', 'The Guardians struggle to keep together as a team while dealing with their personal family issues, notably Star-Lord''s encounter with his father, the ambitious celestial being Ego.', 67);
 
---Add movie: Quardians of the Galaxy 3
+--Add movie: Guardians of the Galaxy 3
 
 INSERT INTO Movie
 VALUES('tt6791350', 'Guardians of the Galaxy Vol.3', 'PG-13', '2h 30m', 2023, 'In Marvel Studios "Guardians of the Galaxy Vol. 3" our beloved band of misfits are looking a bit different these days. Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.', 'Still reeling from the loss of Gamora, Peter Quill rallies his team to defend the universe and one of their own - a mission that could mean the end of the Guardians if not successful.', 64);
@@ -255,8 +255,8 @@ VALUES('tt4154796', 'Avengers: Endgame', 'PG-13', '3h 1m', '2019', 'fter the dev
 
 --INSERT TV_Shows (Id, Title, Age_rating, Seasons, Year, Storyline)
 
-INSERT INTO TV_show(Id, Title, Age_rating, Seasons, Year, Storyline)
-VALUES('tt9140554', 'Loki','TV-14', 2, 'The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of “Avengers: Endgame.”'
+INSERT INTO TV_show
+VALUES('tt10168312', 'What If...?', 'TV-14', 3, 2021, 'Exploring pivotal moments from the Marvel Cinematic Universe and turning them on their head, leading the audience into uncharted territory.');
 
 
 --Insert
