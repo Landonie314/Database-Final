@@ -65,7 +65,7 @@ CREATE TABLE Movie
    Year		NUMBER(4),
    Storyline	VARCHAR2(500),
    Description  VARCHAR2(500),
-   Metascore	CHAR(3),
+   Metascore	NUMBER(3),
    CONSTRAINT movie_id_pk PRIMARY KEY (Id)
 );
 
@@ -248,9 +248,8 @@ VALUES('tt4154756', 'Avengers: Infinity War', 'PG-13', '2h 29m', 2018, 'As the A
 --Add movie: Avengers Endgame
 
 INSERT INTO Movie
-VALUES('tt4154796', 'Avengers: Endgame', 'PG-13', '3h 1m', 2019, 'After the devastating events of Avengers: Infinity War (2018), the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face...', 'After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.', 78);
+VALUES('tt4154796', 'Avengers: Endgame', 'PG-13', '3h 1m', 2019, 'After the devastating events of Avengers: Infinity War (2018), the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos''s actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face...', 'After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos'' actions and restore balance to the universe.', 78);
 
--- INSERT MORE HERE!
 
 
 --INSERT TV_Shows (Id, Title, Age_rating, Seasons, Year, Storyline)
@@ -258,8 +257,6 @@ VALUES('tt4154796', 'Avengers: Endgame', 'PG-13', '3h 1m', 2019, 'After the deva
 INSERT INTO TV_show
 VALUES('tt10168312', 'What If...?', 'TV-14', 3, 2021, 'Exploring pivotal moments from the Marvel Cinematic Universe and turning them on their head, leading the audience into uncharted territory.');
 
-
---Insert
 INSERT INTO TV_show(Id, Title, Age_rating, Seasons, Year, Storyline)
 VALUES('tt9140554', 'Loki','TV-14', 2, 2021, 'The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of “Avengers: Endgame.”')
 
@@ -267,7 +264,8 @@ INSERT INTO TV_show
 VALUES('tt9140560','WandaVision','TV-PG',1, 2021, 'Blends the style of classic sitcoms with the MCU, in which Wanda Maximoff and Vision - two super-powered beings living their ideal suburban lives - begin to suspect that everything is not as it seems.')
 
 INSERT INTO TV_show
-VALUES('tt10234724', 'Moon Knight','TV-14', 1, 2022, 'Steven Grant discovers he's been granted the powers of an Egyptian moon god. But he soon finds out that these newfound powers can be both a blessing and a curse to his troubled life.”')
+
+VALUES('tt10234724', 'Moon Knight','TV-14', 1, 2022, 'Steven Grant discovers he''s been granted the powers of an Egyptian moon god. But he soon finds out that these newfound powers can be both a blessing and a curse to his troubled life.”')
 
 INSERT INTO TV_show
 VALUES('tt10160804','Hawkeye','TV-14',1, 2021, 'Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate Bishop, who took on the role after the original Avenger, Clint Barton.')
@@ -879,8 +877,91 @@ VALUES('Steve Gerber','tt6791350');
 INSERT INTO MV_write
 VALUES('Stan Lee','tt6791350');
 
+--Awards for GOTG 1
+
+INSERT INTO Movie_awards
+VALUES ('tt2015381', '2015 Best Hair and Make up, Critics Choice Award');
+INSERT INTO Movie_awards
+VALUES ('tt2015381', '2015 Best Action Movie, Critics Choice Award');
+INSERT INTO Movie_awards
+VALUES ('tt2015381', '2014 Make-Up of the Year, Hollywood Film Award');
+INSERT INTO Movie_awards
+VALUES ('tt2015381', '2014 Hollywood Blockbuster Award');
+INSERT INTO Movie_awards
+VALUES ('tt2015381', '2015 Best Contemporary Makeup Award');
+
+--Awards for GOTG 2
+
+INSERT INTO Movie_awards
+VALUES ('tt3896198', '2018 Best Special Effects, Saturn Award');
+INSERT INTO Movie_awards
+VALUES ('tt3896198', '2017 Sound of the Year, Hollywood Film Award');
+INSERT INTO Movie_awards
+VALUES ('tt3896198', '2018 Best Contemporary Hair Styling, Artisan Award');
+INSERT INTO Movie_awards
+VALUES ('tt3896198', '2017 Choice Movie Actor, Teen Choice Award');
+INSERT INTO Movie_awards
+VALUES ('tt3896198', '2017 Choice Movie, Teen Choice Award');
+
+--Awards for GOTG 3
+
+INSERT INTO Movie_awards
+VALUES ('tt6791350', '2023 Most Popular US Film, Golden Angel Award');
 
 
+--Genres for GOTG 1
 
+INSERT INTO Mv_Genres
+VALUES('tt2015381', 'Action');
+INSERT INTO Mv_Genres
+VALUES('tt2015381', 'Adventure');
+INSERT INTO Mv_Genres
+VALUES('tt2015381', 'Comedy');
+INSERT INTO Mv_Genres
+VALUES('tt2015381', 'Sci-Fi');
 
+--Genres for GOTG 2
 
+INSERT INTO Mv_Genres
+VALUES('tt3896198', 'Action');
+INSERT INTO Mv_Genres
+VALUES('tt3896198', 'Adventure');
+INSERT INTO Mv_Genres
+VALUES('tt3896198', 'Comedy');
+INSERT INTO Mv_Genres
+VALUES('tt3896198', 'Sci-Fi');
+
+--Genres for GOTG 3
+
+INSERT INTO Mv_Genres
+VALUES('tt6791350', 'Action');
+INSERT INTO Mv_Genres
+VALUES('tt6791350', 'Adventure');
+INSERT INTO Mv_Genres
+VALUES('tt6791350', 'Comedy');
+INSERT INTO Mv_Genres
+VALUES('tt6791350', 'Sci-Fi');
+
+--Production Company for GOTG1
+
+INSERT INTO Production_company
+VALUES('tt2015381', 'Marvel Studios');
+INSERT INTO Production_company
+VALUES('tt2015381', 'Walt Disney Pictures');
+INSERT INTO Production_company
+VALUES('tt2015381', 'Moving Pictures Company');
+
+--Production Company for GOTG2
+
+INSERT INTO Production_company
+VALUES('tt3896198', 'Marvel Studios');
+INSERT INTO Production_company
+VALUES('tt3896198', 'Walt Disney Pictures');
+
+--Production Company for GOTG3
+INSERT INTO Production_company
+VALUES('tt6791350', 'Marvel Studios');
+INSERT INTO Production_company
+VALUES('tt6791350', 'Film New Zealand');
+INSERT INTO Production_company
+VALUES('tt6791350', 'Marvel Entertainment');
