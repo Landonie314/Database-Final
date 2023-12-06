@@ -124,7 +124,7 @@ CREATE TABLE Mv_genres
 );
 
 CREATE TABLE Production_company
-  (Id		CHAR(9),
+  (Id		CHAR(10),
    Company	VARCHAR2(50),
    CONSTRAINT	production_idcompany_pk PRIMARY KEY (Id, Company)
 );
@@ -645,7 +645,7 @@ INSERT INTO Production_company
 VALUES('tt4154756','Walt Disney Pictures');
 
 --Endgame
-
+INSERT INTO MV_act
 VALUES('Vin Diesel','tt4154796');
 INSERT INTO MV_act
 VALUES('Chris Pratt','tt4154796');
