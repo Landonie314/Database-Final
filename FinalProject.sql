@@ -745,6 +745,127 @@ VALUES('tt10168312','2022 Best Animated Show');
 --INSERT INTO Tv_show_awards
 --VALUES('tt10160804','2022 Best Streaming Limited Event Series');
 
+--wandavision
+INSERT INTO TV_act
+VALUES('Elizabeth Olsen', 'tt9140560')
+INSERT INTO TV_act
+VALUES('Paul Bettany', 'tt9140560')
+INSERT INTO TV_act
+VALUES('Kathryn Hahn', 'tt9140560')
+INSERT INTO TV_act
+VALUES('Teyonah Parris', 'tt9140560')
+INSERT INTO TV_act
+VALUES('Josh Stamberg', 'tt9140560')
+INSERT INTO TV_act
+VALUES('David A Payton', 'tt9140560')
+INSERT INTO TV_act
+VALUES('David Lengel', 'tt9140560')
+INSERT INTO TV_act
+VALUES('Amos Glick', 'tt9140560')
+INSERT INTO TV_act
+VALUES('Selena Anduze', 'tt9140560')
+INSERT INTO TV_act
+VALUES('Randall Park', 'tt9140560')
+
+INSERT INTO TV_write
+VALUES('Peter Cameron','tt9140560')
+INSERT INTO TV_write
+VALUES('Mackenzie Dohr','tt9140560')
+INSERT INTO TV_write
+VALUES('Laura Donney','tt9140560')
+INSERT INTO TV_write
+VALUES('Bobak Esfarjani','tt9140560')
+INSERT INTO TV_write
+VALUES('Megan McDonnell','tt9140560')
+
+INSERT INTO TV_direct
+VALUES('Matt Shakman','tt9140560')
+
+
+INSERT INTO Tv_show_awards
+VALUES('tt9140560','2022 Best Television Series, Genre')
+INSERT INTO Tv_show_awards
+VALUES('tt9140560','2021 Best Show')
+INSERT INTO Tv_show_awards
+VALUES('tt9140560','2021 Best Performance in a Show')
+INSERT INTO Tv_show_awards
+VALUES('tt9140560','2021 Best Villain')
+INSERT INTO Tv_show_awards
+VALUES('tt9140560','2022 Best Fight')
+INSERT INTO Tv_show_awards
+VALUES('tt9140560','2022 TV Program of the Year')
+
+INSERT INTO TV_review
+VALUES('tt9140560', 'evansjoshyr', 'Ignore every negative review before episode 4', '29-JAN-21', '10', '01-JAN-16')
+INSERT INTO TV_review
+VALUES('tt9140560', 'DiCaprioFan13', 'Terrific!!', '30-SEP-22', '9', '01-MAR-20')
+INSERT INTO TV_review
+VALUES('tt9140560', 'MsDJH', 'An unexpected experience', '18-OCT-22', '7', '01-JAN-22')
+
+--loki
+INSERT INTO TV_act
+VALUES('Tom Hiddleston', 'tt9140554')
+INSERT INTO TV_act
+VALUES('Sophia Di Martino', 'tt9140554')
+INSERT INTO TV_act
+VALUES('Owen Wilson', 'tt9140554')
+INSERT INTO TV_act
+VALUES('Wunmi Mosaku', 'tt9140554')
+INSERT INTO TV_act
+VALUES('Gugu Mbatha-Raw', 'tt9140554')
+INSERT INTO TV_act
+VALUES('Eugene Cordero', 'tt9140554')
+INSERT INTO TV_act
+VALUES('Neil Ellice', 'tt9140554')
+INSERT INTO TV_act
+VALUES('Tara Strong', 'tt9140554')
+INSERT INTO TV_act
+VALUES('Ke Huy Quan', 'tt9140554')
+INSERT INTO TV_act
+VALUES('Lauren Revard', 'tt9140554')
+
+INSERT INTO TV_write
+VALUES('Eric Martin','tt9140554')
+INSERT INTO TV_write
+VALUES('Michael Waldron','tt9140554')
+INSERT INTO TV_write
+VALUES('Bisha K. Ali','tt9140554')
+INSERT INTO TV_write
+VALUES('Elissa Karasik','tt9140554')
+INSERT INTO TV_write
+VALUES('Katharyn Blair','tt9140554')
+
+INSERT INTO TV_direct
+VALUES('Kate Herron','tt9140554')
+INSERT INTO TV_direct
+VALUES('Justin Benson','tt9140554')
+INSERT INTO TV_direct
+VALUES('Aaron Moorhead','tt9140554')
+INSERT INTO TV_direct
+VALUES('Dan DeLeeuw','tt9140554')
+INSERT INTO TV_direct
+VALUES('Kasra Farahani','tt9140554')
+
+INSERT INTO Tv_show_awards
+VALUES('tt9140554','2022 Best Streaming Fantasy Series')
+INSERT INTO Tv_show_awards
+VALUES('tt9140554','2022 Favorite Male TV Star (Family)')
+INSERT INTO Tv_show_awards
+VALUES('tt9140554','2022 Breakthrough Performance')
+INSERT INTO Tv_show_awards
+VALUES('tt9140554','2022 Best Team')
+INSERT INTO Tv_show_awards
+VALUES('tt9140554','2021 The Show of 2021')
+INSERT INTO Tv_show_awards
+VALUES('tt9140554','2021 Favorite Male TV Star')
+
+INSERT INTO TV_review
+VALUES('tt9140554', 'rich-mac', 'Season 2 - Epic', '10-NOV-22', '9', '01-JUL-17')
+INSERT INTO TV_review
+VALUES('tt9140554', 'MaheshPanth', 'This made be fan of Loki. I would rate this Infinity out of 10. This is the best series ever made.', '10-NOV-22', '10', '01-OCT-05')
+INSERT INTO TV_review
+VALUES('tt9140554', 'akshayjv-05222', 'Marvels best series', '04-SEP-21', '9', '01-SEP-10')
+
 
 --GOTG vol. 1
 
