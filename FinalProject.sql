@@ -996,4 +996,32 @@ VALUES('tt6791350', 'georgewhittingham1', 'A perfect send off for the Guardians'
 INSERT INTO MV_reviews
 VALUES('tt6791350', 'coasteraddict-16796', 'I Cried Four Times', '10-MAY-23', '10', '01-AUG-21');
 
+--Reviews for Endgame
+
+INSERT INTO MV_reviews
+VALUES('tt4154796', 'ACollegeStudent', 'Not as good as infiity war but a great movie', '13-Dec-21', '8', '01-May-20');
+INSERT INTO MV_reviews
+VALUES('tt4154796', 'nickgray-12862', 'Emotional but bit messy.', '27-APR-19', '7', '01-Dec-16');
+INSERT INTO MV_reviews
+VALUES('tt4154796', 'ahmetkozan', 'The End of an Era!', '25-APR-19', '10', '01-DEC-13');
+
+--Reviews for Infinity War
+
+INSERT INTO MV_reviews
+VALUES('tt4154756', 'grztxks', 'Better than Endgame', '14-MAR-21', '10', '01-JAN-21');
+INSERT INTO MV_reviews
+VALUES('tt4154756', 'andreascaloni', 'EMOTIONAL ROLLER COASTER', '16-FEB-21', '9', '01-FEB-21');
+INSERT INTO MV_reviews
+VALUES('tt4154756', 'Puroo', 'How MCU should have always been like', '21-APR-21', '10', '01-JUN-20');
+
+--Reviews for What If...?
+
+INSERT INTO TV_reviews
+VALUES('tt10168312', 'deepfrieddodo', 'Frustratingly Inconsistent', '17-SEP-21', '6', '01-AUG-20');
+INSERT INTO TV_reviews
+VALUES('tt10168312', 'UniqueParticle', 'Hits the spot after watching a lot of dark shows', '28-AUG-22', '9', '01-JUL-12');
+INSERT INTO TV_reviews
+VALUES('tt10168312', 'Swooping_Owl', 'Love it...Want More', '01-SEP-21', '10', '01-MAR-01');
+
+
 
