@@ -107,13 +107,13 @@ CREATE TABLE MV_direct
 
 CREATE TABLE Movie_awards
   (Id		CHAR(10),
-   Mv_awards	VARCHAR2(50),
+   Mv_awards	VARCHAR2(150),
    CONSTRAINT	mv_awards_idawards_pk PRIMARY KEY (Id, Mv_awards)
 );
 
 CREATE TABLE Tv_show_awards
   (Id		CHAR(10),
-   Tv_awards	VARCHAR2(50),
+   Tv_awards	VARCHAR2(150),
    CONSTRAINT	tv_awards_idawards_pk PRIMARY KEY (Id, Tv_awards)
 );
 
@@ -252,7 +252,7 @@ VALUES('tt4154796', 'Avengers: Endgame', 'PG-13', '3h 1m', 2019, 'After the deva
 
 
 
---INSERT TV_Shows (Id, Title, Age_rating, Seasons, Year, Storyline)
+--INSERT TV_show (Id, Title, Age_rating, Seasons, Year, Storyline)
 
 INSERT INTO TV_show
 VALUES('tt10168312', 'What If...?', 'TV-14', 3, 2021, 'Exploring pivotal moments from the Marvel Cinematic Universe and turning them on their head, leading the audience into uncharted territory.');
@@ -264,7 +264,6 @@ INSERT INTO TV_show
 VALUES('tt9140560','WandaVision','TV-PG',1, 2021, 'Blends the style of classic sitcoms with the MCU, in which Wanda Maximoff and Vision - two super-powered beings living their ideal suburban lives - begin to suspect that everything is not as it seems.')
 
 INSERT INTO TV_show
-
 VALUES('tt10234724', 'Moon Knight','TV-14', 1, 2022, 'Steven Grant discovers he''s been granted the powers of an Egyptian moon god. But he soon finds out that these newfound powers can be both a blessing and a curse to his troubled life.”')
 
 INSERT INTO TV_show
@@ -499,6 +498,8 @@ VALUES(NULL, NULL, NULL, NULL, 'Rhys Thomas');
 
 --WRITERS
 
+INSERT INTO Writer
+VALUES('1.83', '05-AUG-66', 'Heavy use of tongue-in-cheek dialogue. Unconventional characters. His spiky hair.', 'The Sneepers', 'James Gunn');
 
 INSERT INTO Writer
 VALUES(NULL, '31-JAN-81', NULL, NULL, 'Nicole Perlman');
@@ -620,11 +621,11 @@ INSERT INTO MV_write
 VALUES('Jack Kirby','tt4154756');
 
 INSERT INTO Movie_awards
-VALUES('tt4154756','2019 Nominee Best Visual Effects');
+VALUES('tt4154756','2019 Best Visual Effects');
 INSERT INTO Movie_awards
-VALUES('tt4154756','2019 Nominee Best Action Movie');
+VALUES('tt4154756','2019 Best Action Movie');
 INSERT INTO Movie_awards
-VALUES('tt4154756','2019 Winner Favorite Movie');
+VALUES('tt4154756','2019 Favorite Movie');
 
 INSERT INTO Mv_genres
 VALUES('tt4154756','Action');
@@ -677,11 +678,11 @@ INSERT INTO MV_write
 VALUES('Jack Kirby','tt4154796');
 
 INSERT INTO Movie_awards
-VALUES('tt4154796','2019 Winnder Bogey Award in Gold');
+VALUES('tt4154796','2019 Bogey Award in Gold');
 INSERT INTO Movie_awards
-VALUES('tt4154796','2020 Winner Best Action Movie');
+VALUES('tt4154796','2020 Best Action Movie');
 INSERT INTO Movie_awards
-VALUES('tt4154796','2020 Winner Best Visual Effects');
+VALUES('tt4154796','2020 Best Visual Effects');
 
 INSERT INTO Mv_genres
 VALUES('tt4154796','Action');
@@ -717,9 +718,9 @@ INSERT INTO TV_direct
 VALUES('Bryan Andrews','tt10168312');
 
 INSERT INTO TV_direct
-VALUES('Justin Benson', 'tt10234724');
+VALUES('Justin Benson', 'tt10168312');
 INSERT INTO TV_direct
-VALUES('Aaron Moorhead, 'tt10234724');
+VALUES('Aaron Moorhead', 'tt10168312');
 
 INSERT INTO TV_write
 VALUES('A.C. Bradley','tt10168312');
@@ -733,17 +734,17 @@ INSERT INTO TV_write
 VALUES('Steve Gerber','tt10168312');
 
 INSERT INTO Tv_show_awards
-VALUES('tt10168312','2022 Winner Best Animated Series');
+VALUES('tt10168312','2022 Best Animated Series');
 INSERT INTO Tv_show_awards
-VALUES('tt10168312','2022 Nominee Next Big Thing');
+VALUES('tt10168312','2022 Next Big Thing');
 INSERT INTO Tv_show_awards
-VALUES('tt10168312','2022 Nominee Best Animated Show');
+VALUES('tt10168312','2022 Best Animated Show');
 
-INSERT INTO Tv_show_awards
-VALUES('tt10234724','2022 Nominee Best Streaming Limited Event Series');
+--INSERT INTO Tv_show_awards
+--VALUES('tt10234724','2022 Best Streaming Limited Event Series');
 
-INSERT INTO Tv_show_awards
-VALUES('tt10160804','2022 Nominee Best Streaming Limited Event Series');
+--INSERT INTO Tv_show_awards
+--VALUES('tt10160804','2022 Best Streaming Limited Event Series');
 
 
 --GOTG vol. 1
