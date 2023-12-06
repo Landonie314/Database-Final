@@ -131,21 +131,20 @@ CREATE TABLE Production_company
 
 CREATE TABLE TV_reviews
   (Id		CHAR(10),
-   Username	VARCHAR2(25),
-   Title	VARCHAR2(25),
+   Username	VARCHAR2(40),
+   Title	VARCHAR2(100),
    Review_date		DATE,
-   Critics	NUMBER(3),
+   Critics	NUMBER(2),
    Account_date	DATE,
    CONSTRAINT tv_reviews_iduser_pk PRIMARY KEY (Id, Username)
 );
 
 CREATE TABLE MV_reviews
   (Id		CHAR(10),
-   Username	VARCHAR2(25),
-   Title	VARCHAR2(25),
+   Username	VARCHAR2(40),
+   Title	VARCHAR2(100),
    Review_date		DATE,
-   Critics	NUMBER(3),
-   Metacritic	VARCHAR2(1),
+   Critics	NUMBER(2),
    Account_date	DATE,
    CONSTRAINT mv_reviews_iduser_pk PRIMARY KEY (Id, Username)
 );
@@ -969,41 +968,32 @@ INSERT INTO Production_company
 VALUES('tt6791350', 'Marvel Entertainment');
 
 
-CREATE TABLE TV_reviews
-  (Id		CHAR(10),
-   Username	VARCHAR2(25),
-   Title	VARCHAR2(25),
-   Review_date		DATE,
-   Critics	NUMBER(3),
-   Account_date	DATE,
-   CONSTRAINT tv_reviews_iduser_pk PRIMARY KEY (Id, Username)
 
-/*
 --Reviews for GOTG1
 
-INSERT INTO TV_reviews
+INSERT INTO MV_reviews
 VALUES('tt2015381', 'auuwws', 'Guardians of Galaxy', '02-NOV-20', '8', '01-MAY-20');
-INSERT INTO TV_reviews
+INSERT INTO MV_reviews
 VALUES('tt2015381', 'waqassaleem-85201', 'One of the best mcu films', '08-SEP-20', '8', '01-SEP-19');
-INSERT INTO TV_reviews
+INSERT INTO MV_reviews
 VALUES('tt2015381', 'denise-882-139023', 'Perfect Film Entertainment', '02-JAN-21', '10', '01-DEC-13');
 
 --Reviews for GOTG2
 
-INSERT INTO TV_reviews
+INSERT INTO MV_reviews
 VALUES('tt3896198', 'SebMoz', 'Yes. Just yes', '30-NOV-20', '8', '01-MAY-20');
-INSERT INTO TV_reviews
+INSERT INTO MV_reviews
 VALUES('tt3896198', 'snoozejonc', 'Do me! Do me! Do me!', '14-SEP-21', '8', '01-JUL-20');
-INSERT INTO TV_reviews
+INSERT INTO MV_reviews
 VALUES('tt3896198', 'aidanratesmovies', 'Fantastic', '24-JUN-21', '10', '01-NOV-13');
 
 --Reviews for GOTG3
 
-INSERT INTO TV_reviews
+INSERT INTO MV_reviews
 VALUES('tt6791350', 'AfricanBro', 'I am groot', '03-MAY-23', '8', '01-JUN-20');
-INSERT INTO TV_reviews
+INSERT INTO MV_reviews
 VALUES('tt6791350', 'georgewhittingham1', 'A perfect send off for the Guardians', '03-MAY-23', '9', '01-JAN-20');
-INSERT INTO TV_reviews
+INSERT INTO MV_reviews
 VALUES('tt6791350', 'coasteraddict-16796', 'I Cried Four Times', '10-MAY-23', '10', '01-AUG-21');
 
-*/
+
