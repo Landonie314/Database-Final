@@ -867,6 +867,22 @@ INSERT INTO TV_reviews
 VALUES('tt9140554', 'akshayjv-05222', 'Marvels best series', '04-SEP-21', '9', '01-SEP-10');
 
 
+INSERT INTO TV_reviews
+VALUES('tt10234724', 'rich7354', 'Enjoyed this more than I thought I would', '15-MAY-23', '7', '01-DEC-14');
+INSERT INTO TV_reviews
+VALUES('tt10234724', 'doomedmac', 'This is a weird show...', '05-MAY-22', '8', '01-DEC-19');
+INSERT INTO TV_reviews
+VALUES('tt10234724', 'UrbanElysium', 'Amazing!', '27-MAY-23', '9', '01-SEP-16');
+
+
+INSERT INTO TV_reviews
+VALUES('tt10160804', 'IPyaarCinema', 'Introduction Show', '13-JAN-22', '5', '01-OCT-16');
+INSERT INTO TV_reviews
+VALUES('tt10160804', 'FeastMode', 'Light-hearted fun', '23-DEC-21', '7', '01-JUN-19');
+INSERT INTO TV_reviews
+VALUES('tt10160804', 'briancham1994', 'A whole lot of nothing', '23-DEC-21', '3', '01-JUN-05');
+
+
 --GOTG vol. 1
 
 INSERT INTO MV_act
