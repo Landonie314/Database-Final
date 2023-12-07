@@ -257,16 +257,16 @@ INSERT INTO TV_show
 VALUES('tt10168312', 'What If...?', 'TV-14', 3, 2021, 'Exploring pivotal moments from the Marvel Cinematic Universe and turning them on their head, leading the audience into uncharted territory.');
 
 INSERT INTO TV_show(Id, Title, Age_rating, Seasons, Year, Storyline)
-VALUES('tt9140554', 'Loki','TV-14', 2, 2021, 'The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of “Avengers: Endgame.”')
+VALUES('tt9140554', 'Loki','TV-14', 2, 2021, 'The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of Avengers: Endgame.');
 
 INSERT INTO TV_show
-VALUES('tt9140560','WandaVision','TV-PG',1, 2021, 'Blends the style of classic sitcoms with the MCU, in which Wanda Maximoff and Vision - two super-powered beings living their ideal suburban lives - begin to suspect that everything is not as it seems.')
+VALUES('tt9140560','WandaVision','TV-PG',1, 2021, 'Blends the style of classic sitcoms with the MCU, in which Wanda Maximoff and Vision - two super-powered beings living their ideal suburban lives - begin to suspect that everything is not as it seems.');
 
 INSERT INTO TV_show
-VALUES('tt10234724', 'Moon Knight','TV-14', 1, 2022, 'Steven Grant discovers he''s been granted the powers of an Egyptian moon god. But he soon finds out that these newfound powers can be both a blessing and a curse to his troubled life.”')
+VALUES('tt10234724', 'Moon Knight','TV-14', 1, 2022, 'Steven Grant discovers he''s been granted the powers of an Egyptian moon god. But he soon finds out that these newfound powers can be both a blessing and a curse to his troubled life.”');
 
 INSERT INTO TV_show
-VALUES('tt10160804','Hawkeye','TV-14',1, 2021, 'Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate Bishop, who took on the role after the original Avenger, Clint Barton.')
+VALUES('tt10160804','Hawkeye','TV-14',1, 2021, 'Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate Bishop, who took on the role after the original Avenger, Clint Barton.');
 
 
 
@@ -747,124 +747,124 @@ VALUES('tt10168312','2022 Best Animated Show');
 
 --wandavision
 INSERT INTO TV_act
-VALUES('Elizabeth Olsen', 'tt9140560')
+VALUES('Elizabeth Olsen','tt9140560');
 INSERT INTO TV_act
-VALUES('Paul Bettany', 'tt9140560')
+VALUES('Paul Bettany','tt9140560');
 INSERT INTO TV_act
-VALUES('Kathryn Hahn', 'tt9140560')
+VALUES('Kathryn Hahn','tt9140560');
 INSERT INTO TV_act
-VALUES('Teyonah Parris', 'tt9140560')
+VALUES('Teyonah Parris','tt9140560');
 INSERT INTO TV_act
-VALUES('Josh Stamberg', 'tt9140560')
+VALUES('Josh Stamberg','tt9140560');
 INSERT INTO TV_act
-VALUES('David A Payton', 'tt9140560')
+VALUES('David A Payton','tt9140560');
 INSERT INTO TV_act
-VALUES('David Lengel', 'tt9140560')
+VALUES('David Lengel','tt9140560');
 INSERT INTO TV_act
-VALUES('Amos Glick', 'tt9140560')
+VALUES('Amos Glick','tt9140560');
 INSERT INTO TV_act
-VALUES('Selena Anduze', 'tt9140560')
+VALUES('Selena Anduze','tt9140560');
 INSERT INTO TV_act
-VALUES('Randall Park', 'tt9140560')
+VALUES('Randall Park','tt9140560');
 
 INSERT INTO TV_write
-VALUES('Peter Cameron','tt9140560')
+VALUES('Peter Cameron','tt9140560');
 INSERT INTO TV_write
-VALUES('Mackenzie Dohr','tt9140560')
+VALUES('Mackenzie Dohr','tt9140560');
 INSERT INTO TV_write
-VALUES('Laura Donney','tt9140560')
+VALUES('Laura Donney','tt9140560');
 INSERT INTO TV_write
-VALUES('Bobak Esfarjani','tt9140560')
+VALUES('Bobak Esfarjani','tt9140560');
 INSERT INTO TV_write
-VALUES('Megan McDonnell','tt9140560')
+VALUES('Megan McDonnell','tt9140560');
 
 INSERT INTO TV_direct
-VALUES('Matt Shakman','tt9140560')
+VALUES('Matt Shakman','tt9140560');
 
 
 INSERT INTO Tv_show_awards
-VALUES('tt9140560','2022 Best Television Series, Genre')
+VALUES('tt9140560','2022 Best Television Series, Genre');
 INSERT INTO Tv_show_awards
-VALUES('tt9140560','2021 Best Show')
+VALUES('tt9140560','2021 Best Show');
 INSERT INTO Tv_show_awards
-VALUES('tt9140560','2021 Best Performance in a Show')
+VALUES('tt9140560','2021 Best Performance in a Show');
 INSERT INTO Tv_show_awards
-VALUES('tt9140560','2021 Best Villain')
+VALUES('tt9140560','2021 Best Villain');
 INSERT INTO Tv_show_awards
-VALUES('tt9140560','2022 Best Fight')
+VALUES('tt9140560','2022 Best Fight');
 INSERT INTO Tv_show_awards
-VALUES('tt9140560','2022 TV Program of the Year')
+VALUES('tt9140560','2022 TV Program of the Year');
 
-INSERT INTO TV_review
-VALUES('tt9140560', 'evansjoshyr', 'Ignore every negative review before episode 4', '29-JAN-21', '10', '01-JAN-16')
-INSERT INTO TV_review
-VALUES('tt9140560', 'DiCaprioFan13', 'Terrific!!', '30-SEP-22', '9', '01-MAR-20')
-INSERT INTO TV_review
-VALUES('tt9140560', 'MsDJH', 'An unexpected experience', '18-OCT-22', '7', '01-JAN-22')
+INSERT INTO TV_reviews
+VALUES('tt9140560', 'evansjoshyr', 'Ignore every negative review before episode 4', '29-JAN-21', '10', '01-JAN-16');
+INSERT INTO TV_reviews
+VALUES('tt9140560', 'DiCaprioFan13', 'Terrific!!', '30-SEP-22', '9', '01-MAR-20');
+INSERT INTO TV_reviews
+VALUES('tt9140560', 'MsDJH', 'An unexpected experience', '18-OCT-22', '7', '01-JAN-22');
 
 --loki
 INSERT INTO TV_act
-VALUES('Tom Hiddleston', 'tt9140554')
+VALUES('Tom Hiddleston', 'tt9140554');
 INSERT INTO TV_act
-VALUES('Sophia Di Martino', 'tt9140554')
+VALUES('Sophia Di Martino', 'tt9140554');
 INSERT INTO TV_act
-VALUES('Owen Wilson', 'tt9140554')
+VALUES('Owen Wilson', 'tt9140554');
 INSERT INTO TV_act
-VALUES('Wunmi Mosaku', 'tt9140554')
+VALUES('Wunmi Mosaku', 'tt9140554');
 INSERT INTO TV_act
-VALUES('Gugu Mbatha-Raw', 'tt9140554')
+VALUES('Gugu Mbatha-Raw', 'tt9140554');
 INSERT INTO TV_act
-VALUES('Eugene Cordero', 'tt9140554')
+VALUES('Eugene Cordero', 'tt9140554');
 INSERT INTO TV_act
-VALUES('Neil Ellice', 'tt9140554')
+VALUES('Neil Ellice', 'tt9140554');
 INSERT INTO TV_act
-VALUES('Tara Strong', 'tt9140554')
+VALUES('Tara Strong', 'tt9140554');
 INSERT INTO TV_act
-VALUES('Ke Huy Quan', 'tt9140554')
+VALUES('Ke Huy Quan', 'tt9140554');
 INSERT INTO TV_act
-VALUES('Lauren Revard', 'tt9140554')
+VALUES('Lauren Revard', 'tt9140554');
 
 INSERT INTO TV_write
-VALUES('Eric Martin','tt9140554')
+VALUES('Eric Martin','tt9140554');
 INSERT INTO TV_write
-VALUES('Michael Waldron','tt9140554')
+VALUES('Michael Waldron','tt9140554');
 INSERT INTO TV_write
-VALUES('Bisha K. Ali','tt9140554')
+VALUES('Bisha K. Ali','tt9140554');
 INSERT INTO TV_write
-VALUES('Elissa Karasik','tt9140554')
+VALUES('Elissa Karasik','tt9140554');
 INSERT INTO TV_write
-VALUES('Katharyn Blair','tt9140554')
+VALUES('Katharyn Blair','tt9140554');
 
 INSERT INTO TV_direct
-VALUES('Kate Herron','tt9140554')
+VALUES('Kate Herron','tt9140554');
 INSERT INTO TV_direct
-VALUES('Justin Benson','tt9140554')
+VALUES('Justin Benson','tt9140554');
 INSERT INTO TV_direct
-VALUES('Aaron Moorhead','tt9140554')
+VALUES('Aaron Moorhead','tt9140554');
 INSERT INTO TV_direct
-VALUES('Dan DeLeeuw','tt9140554')
+VALUES('Dan DeLeeuw','tt9140554');
 INSERT INTO TV_direct
-VALUES('Kasra Farahani','tt9140554')
+VALUES('Kasra Farahani','tt9140554');
 
 INSERT INTO Tv_show_awards
-VALUES('tt9140554','2022 Best Streaming Fantasy Series')
+VALUES('tt9140554','2022 Best Streaming Fantasy Series');
 INSERT INTO Tv_show_awards
-VALUES('tt9140554','2022 Favorite Male TV Star (Family)')
+VALUES('tt9140554','2022 Favorite Male TV Star (Family)');
 INSERT INTO Tv_show_awards
-VALUES('tt9140554','2022 Breakthrough Performance')
+VALUES('tt9140554','2022 Breakthrough Performance');
 INSERT INTO Tv_show_awards
-VALUES('tt9140554','2022 Best Team')
+VALUES('tt9140554','2022 Best Team');
 INSERT INTO Tv_show_awards
-VALUES('tt9140554','2021 The Show of 2021')
+VALUES('tt9140554','2021 The Show of 2021');
 INSERT INTO Tv_show_awards
-VALUES('tt9140554','2021 Favorite Male TV Star')
+VALUES('tt9140554','2021 Favorite Male TV Star');
 
-INSERT INTO TV_review
-VALUES('tt9140554', 'rich-mac', 'Season 2 - Epic', '10-NOV-22', '9', '01-JUL-17')
-INSERT INTO TV_review
-VALUES('tt9140554', 'MaheshPanth', 'This made be fan of Loki. I would rate this Infinity out of 10. This is the best series ever made.', '10-NOV-22', '10', '01-OCT-05')
-INSERT INTO TV_review
-VALUES('tt9140554', 'akshayjv-05222', 'Marvels best series', '04-SEP-21', '9', '01-SEP-10')
+INSERT INTO TV_reviews
+VALUES('tt9140554', 'rich-mac', 'Season 2 - Epic', '10-NOV-22', '9', '01-JUL-17');
+INSERT INTO TV_reviews
+VALUES('tt9140554', 'MaheshPanth', 'This made be fan of Loki. I would rate this Infinity out of 10. This is the best series ever made.', '10-NOV-22', '10', '01-OCT-05');
+INSERT INTO TV_reviews
+VALUES('tt9140554', 'akshayjv-05222', 'Marvels best series', '04-SEP-21', '9', '01-SEP-10');
 
 
 --GOTG vol. 1
